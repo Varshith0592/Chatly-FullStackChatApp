@@ -7,7 +7,7 @@ export const protectRoute=async(req,res,next)=>{
         if(!token){
             return res.status(401).json({
                 success:false,
-                message:'Please login again to access this content'
+                message:'Token not found'
             })
         }
 
@@ -15,7 +15,7 @@ export const protectRoute=async(req,res,next)=>{
         if(!decoded){
             return res.status(401).json({
                 success:false,
-                message:'Please login again to access this content'
+                message:'Decoded token not found'
             })
         }
         const user=await User.findById(decoded.userId).select("-password")
