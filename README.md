@@ -1,6 +1,6 @@
 # Chatly
 
-Chatly is a modern real-time chat application built using the **MERN Stack** (MongoDB, Express, React, Node.js). It includes state management with **Zustand** and a sleek user interface powered by **DaisyUI** (Tailwind CSS). Chatly allows users to send text and image messages, as well as update their profiles.
+Chatly is a simple real-time chat application built using the **MERN Stack** (MongoDB, Express, React, Node.js). It includes state management with **Zustand** and a sleek user interface powered by **DaisyUI** (Tailwind CSS). Chatly allows users to send text and image messages, as well as update their profiles.
 
 **[Live Demo 🚀](https://chatly-full-stack-chat-app.vercel.app/)**
 
